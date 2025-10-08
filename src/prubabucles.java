@@ -3,6 +3,6 @@ public class prubabucles {
         for (int i = 0; i<=100 ;i+=2) {
             System.out.println(i);
         }
-        System.out.println("fin  SSSSSSSS");
+        System.out.println("fin");
     }
 }
