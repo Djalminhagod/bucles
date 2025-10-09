@@ -11,8 +11,7 @@ public class ejercicio4 {
         int nivel = sc.nextInt();
         System.out.println("cuantos nivesles quieres que suba ");
         int nivelsub = sc.nextInt();
-        int niveltotal = nivel+nivelsub;
-        for(int i=nivel+1;i<=niveltotal; i++){
+        for(int i=nivel+1;i<=nivel+nivelsub; i++){
             System.out.println("el pokemon "+nombre+" sube de nivel "+i);
             if(i==16 || i==36){
                 System.out.println("vaya "+nombre+" esta evolucionando ");
