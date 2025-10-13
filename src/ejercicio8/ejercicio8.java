@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ejercicio8 {
     public static void main(String[] args) {
+        boolean acertado=false;
         do {
             System.out.println("-----------------------------------------------------------");
             System.out.println("*** Pokédex Interactiva ***\n" +
@@ -20,10 +21,10 @@ public class ejercicio8 {
                     String nombre = teclado.nextLine();
                     switch (nombre) {
                         case "pikachu":
-                            System.out.println("Altura0,4 m\n" +
-                                    "Peso6,0 kg\n" +
+                            System.out.println("Altura 0,4 m\n" +
+                                    "Peso 6,0 kg\n" +
                                     "Sexo\n" +
-                                    "CategoríaRatón\n" +
+                                    "Categorí aRatón\n" +
                                     "Habilidad\n" +
                                     "Elec. Estática\n" +
                                     "Tipo Eléctrico\n" +
@@ -31,23 +32,23 @@ public class ejercicio8 {
                             break;
                         case "mewtwo":
                             System.out.println("Height6' 07\"\n" +
-                                    "Weight269.0 lbs\n" +
-                                    "GenderUnknown\n" +
-                                    "CategoryGenetic\n" +
+                                    "Weight 269.0 lbs\n" +
+                                    "Gender Unknown\n" +
+                                    "Category Genetic\n" +
                                     "Abilities\n" +
                                     "Pressure\n" +
-                                    "TypePsychic\n" +
-                                    "WeaknessesBugGhostDark");
+                                    "Type Psychic\n" +
+                                    "Weaknesses Bug Ghost Dark");
                             break;
                         case "gyarados":
-                            System.out.println("Altura6,5 m\n" +
-                                    "Peso235,0 kg\n" +
+                            System.out.println("Altura 6,5 m\n" +
+                                    "Peso 235,0 kg\n" +
                                     "Sexo\n" +
-                                    "CategoríaAtrocidad\n" +
+                                    "CategoríaA trocidad\n" +
                                     "Habilidad\n" +
                                     "Intimidación\n" +
                                     "TipoAguaVolador\n" +
-                                    "DebilidadEléctricoRoca");
+                                    "Debilidad Eléctrico Roca");
                             break;
                             default:
                                 System.out.println("no esta en la pokedex ese pokemon");
@@ -70,11 +71,12 @@ public class ejercicio8 {
                     break;
                     case "3":
                         System.out.println("CERRANDO LA POKEDEX");
+                        acertado=true;
                         break;
                         default:
                             System.out.println("no esta en la pokedex ese pokemon");
                             break;
             }
-        }while (true);
+        }while (!acertado);
     }
 }
