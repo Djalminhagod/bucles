@@ -10,7 +10,9 @@ public class ejercicio1 {
         System.out.println("******************************************");
         System.out.println("******************************************");
         Scanner sc = new Scanner(System.in);
+        System.out.println("ingrese su velocidad en km/h");
         int velocidad = sc.nextInt();
+
         boolean esExcesoVelocidad = true;
         if (velocidad <= 120) {
             esExcesoVelocidad = false;

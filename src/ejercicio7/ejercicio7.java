@@ -12,7 +12,7 @@ public class ejercicio7 {
         double velocidadnueva2 = 0.0;
         double distancianueva1 = 0.0;
         double distancianueva2 = 0.0;
-        for (int i = 0; i <= 15; i++) {
+for (int i = 0; i <= 15; i++) {
             velocidadnueva1 += velociadad + coche1velociadad;
             velocidadnueva2 += velociadad + coche2velociadad;
             distancianueva1 += distancia + velocidadnueva1;
